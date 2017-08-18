@@ -4,12 +4,12 @@
 
 [![Build](https://travis-ci.org/Imaginea/KodeBeagle.svg?branch=master)](https://travis-ci.org/Imaginea/KodeBeagle/builds)
 
-We use [gh-pages](https://pages.github.com/) and Jekyll for demo web ui.
+We use [GitHub Pages](https://pages.github.com/) and [Jekyll](https://github.com/jekyll/jekyll) for demo web ui.
 
 # KodeBeagle
 KodeBeagle aims at solving common software engineering challenges developers face in day-to-day activity. With the help of modern day technologies like Apache Spark, processsing TBs of data has become fast. Currently, we have targeted the following areas-
 
-1. **Code Search** - Our code search helps in providing contextual code examples of various API usages in Java, Scala and JavaScript (Only Node.js). We also have an Intellij IDEA plugin which helps developers search code from right within the IDE. Refer to our code search [here](http://kodebeagle.com)
+1. **Code Search** - Our code search helps in providing contextual code examples of various API usages in Java, Scala and JavaScript (Only Node.js). We also have an Intellij IDEA plugin which helps developers search code from right within the IDE. Refer to our code search [on the main website](http://kodebeagle.com)
 
 2. **Navigation** - Currently, we are working on providing an IDE like code navigation on github for repositories. (Currently Java Repositories on github are supported)
 
@@ -49,8 +49,8 @@ Each of the index creation job generates indices which you can upload to your lo
 
 ## Development Enviroment Setup
 1. To develop KodeBeagle, you can use either IntelliJ IDEA Community Edition or IntelliJ IDEA Ultimate not older than 15.0.
-2. Download the latest version of  Scala plugin from [here][scala-plugin]
-[scala-plugin]: https://plugins.jetbrains.com/plugin/?id=1347
+2. Download the latest version of [Scala plugin](https://plugins.jetbrains.com/plugin/?id=1347).
+
 3. Extract the scala plugin archive and copy the scala-plugin.jar from Scala/lib/scala-plugin.jar to idea-IC-143.XXX.XX (Intellij IDE Folder).
 4. Go to the IDE select *File > Settings > Plugins > Install plugin from disk > Navigate to the scala-plugin that was downloaded > Restart IDE* (Make sure the plugin is enabled)
 5. Then navigate to *File > New > Project From Existing Source > Navigate to Project Directory >  Import Project From External Model > SBT > Select auto-import and go to Global Settings > VM params*. Type this `-Didea.lib=<path-to-idea-lib>`
@@ -67,9 +67,7 @@ Each of the index creation job generates indices which you can upload to your lo
 7. Submit a pull request :D
 
 ## Code Of Conduct
-This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
-[code-of-conduct]: http://todogroup.org/opencodeofconduct/#KodeBeagle/ococabuse@imaginea.com
+This project adheres to the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#KodeBeagle/ococabuse@imaginea.com). By participating, you agree to honor this code.
 
 ## License
-Please look at our [license][license].
-[license]: https://github.com/Imaginea/KodeBeagle/blob/master/LICENSE
+Please look at our [license](https://github.com/Imaginea/KodeBeagle/blob/master/LICENSE).
